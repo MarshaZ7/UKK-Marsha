@@ -1,0 +1,231 @@
+.container {
+  max-width: 1500px;
+  margin: 60px auto;
+  background-color: #a9cedff1;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(219, 219, 219);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: content;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto;
+}
+.card {
+flex: 0 0 30%; /* Adjust the width of each card as needed */
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+background-color: #5c7c75;
+margin-bottom: 20px;
+}
+.card-content {
+padding: 20px;
+  color: #3b3b3b;
+}
+
+.card-title {
+font-size: 24px;
+margin-bottom: 10px;
+color: #fff;
+}
+
+h2{
+  text-align: center;
+}
+h3{
+color: #ddd;
+}
+.btn {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+font-size: 16px;
+margin-bottom: auto;
+margin-top: 0% ;
+}
+
+.btn:hover {
+background-color: #0056b3;
+}
+.btn.add {
+padding: 10px 20px;
+background-color: #76a54f;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+font-size: 16px;
+margin-bottom: auto;
+margin-top: 0% ;
+}
+
+.btn.add:hover {
+background-color: #0f4d0f;
+}
+.btn.hapus:hover {
+background-color: #5e0c0c;
+}
+
+.btn.hapus {
+padding: 10px 20px;
+background-color: #940505;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+font-size: 16px;
+}
+
+
+table {
+border-collapse: collapse;
+width: 80%;
+margin-top: 20px;
+margin-bottom: 0;
+text-align: center;
+margin:auto;
+}
+a.detail{
+  padding: 10px 20px;
+background-color: #b99e25;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+font-size: 16px;
+margin-bottom: auto;
+margin-top: 0% ;
+}
+a:hover{
+  background-color: #807809;}
+th, td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 12px;
+}
+
+th {
+background-color: #a56f29;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+tr:hover {
+background-color: #ddd;
+}
+
+p{
+color: #000000;
+}
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+/* Gaya untuk pesan alert sukses */
+.alert-success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  border-color: #D6E9C6;
+}
+/* Gaya untuk pesan alert peringatan */
+.alert-warning {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  border-color: #FDD964;
+}
+
+/* Gaya untuk pesan alert kesalahan */
+.alert-danger {
+  color: #D8000C;
+  background-color: #FFD2D2;
+  border-color: #D6E9C6;
+}
+.table3 {
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 25px;
+  font-size: 16px;
+  margin:left;
+}
+
+.th3, .td3 {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.th3 {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.tr3 {
+  background-color: #f5f5f5;
+}
+.tr3:hover {
+  background-color: #696666;
+}
+/* Optional: tambahkan efek transisi */
+.tr3 {
+  transition: background-color 0.3s;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+}
+input[type="text"],input[type="number"]  {
+    width: calc(90% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+label.total {
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+}
+input.total[type="text"] {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #216079;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+.form-header {
+    /* background-color: #2d7523; */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    
+button {
+    width: 30%;
+    background-color: #23831a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: #08472f;
+}
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 13px;
+}
+
+/* Tombol tutup alert */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect untuk tombol tutup alert */
+.closebtn:hover {
+    color: black;
+}
